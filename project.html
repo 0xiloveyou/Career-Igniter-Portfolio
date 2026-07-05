@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detailed backend project case study.">
+  <title>Project Details | Rafiq Ahammed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="glow glow-cyan"></span>
+    <span class="glow glow-purple"></span>
+    <span class="grid-noise"></span>
+  </div>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html#home">
+        <span class="brand-mark">
+          <img src="assets/MyAssets/logo.png" alt="Rafiq Ahammed logo">
+        </span>
+      </a>
+      <div class="nav-links single">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="project-detail-page">
+    <section class="section project-detail reveal">
+      <div class="detail-hero">
+        <div>
+          <p class="eyebrow">Project Details</p>
+          <h1 id="project-title">Project Name</h1>
+          <p id="project-summary" class="hero-copy"></p>
+          <div class="hero-actions">
+            <a class="btn primary" id="live-link" href="#" target="_blank" rel="noreferrer">Live Project</a>
+            <a class="btn secondary" id="github-link" href="#" target="_blank" rel="noreferrer">GitHub Repository</a>
+          </div>
+        </div>
+        <img id="project-image" src="" alt="">
+      </div>
+
+      <div class="detail-grid">
+        <article class="detail-card">
+          <h2>Main Technology Stack</h2>
+          <div id="project-stack" class="skill-icon-grid compact"></div>
+        </article>
+        <article class="detail-card">
+          <h2>Brief Description</h2>
+          <p id="project-description"></p>
+        </article>
+        <article class="detail-card">
+          <h2>Challenges Faced</h2>
+          <p id="project-challenges"></p>
+        </article>
+        <article class="detail-card">
+          <h2>Future Improvements</h2>
+          <p id="project-future"></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Rafiq Ahammed. Built for clean backend engineering.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Stack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #38bdf8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            width: 100%;
+            max-width: 1000px;
+            border-bottom: 2px solid var(--card-bg);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 2rem;
+        }
+
+        .icon-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            border: 1px solid #334155;
+        }
+
+        .icon-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            border-color: var(--accent-color);
+        }
+
+        /* Standard Icon and SVG Sizing */
+        .icon-card i, .icon-card img {
+            font-size: 3rem;
+            width: 3rem;
+            height: 3rem;
+            object-fit: contain;
+        }
+
+        .icon-name {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #cbd5e1;
+        }
+
+        /* --- Custom colors for concept icons --- */
+        .color-api { color: #00bcd4; }
+        .color-responsive { color: #4caf50; }
+        .color-rest { color: #ff9800; }
+        .color-jwt { color: #e91e63; }
+        .color-middleware { color: #9c27b0; }
+        .color-validation { color: #00ffcc; }
+        .color-schema { color: #ffeb3b; }
+        .color-indexing { color: #ff5722; }
+        .color-render { color: #46e3b7; }
+        .color-github { color: #f0f6fc; }
+    </style>
+</head>
+<body>
+
+    <h1>My Skills & Tech Stack</h1>
+
+    <div class="section-title">Frontend & Frameworks</div>
+    <div class="grid">
+        <div class="icon-card">
+            <i class="devicon-html5-plain colored"></i>
+            <div class="icon-name">HTML</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-css3-plain colored"></i>
+            <div class="icon-name">CSS</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <div class="icon-name">JavaScript</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-react-original colored"></i>
+            <div class="icon-name">React Basics</div>
+        </div>
+        <div class="icon-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-line.svg" style="filter: invert(1);" alt="Next.js">
+            <div class="icon-name">Next.js</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-laptop-code color-responsive"></i>
+            <div class="icon-name">Responsive UI</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-cloud-arrow-down color-api"></i>
+            <div class="icon-name">API Integration</div>
+        </div>
+    </div>
+
+    <div class="section-title">Backend & ORM</div>
+    <div class="grid">
+        <div class="icon-card">
+            <i class="devicon-nodejs-plain colored"></i>
+            <div class="icon-name">Node.js</div>
+        </div>
+        <div class="icon-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style="filter: invert(1) brightness(2);" alt="Express.js">
+            <div class="icon-name">Express.js</div>
+        </div>
+        <div class="icon-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" alt="Prisma ORM">
+            <div class="icon-name">Prisma ORM</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-network-wired color-rest"></i>
+            <div class="icon-name">REST API</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-key color-jwt"></i>
+            <div class="icon-name">JWT Auth</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-filter color-middleware"></i>
+            <div class="icon-name">Middleware</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-shield-halved color-validation"></i>
+            <div class="icon-name">Validation</div>
+        </div>
+    </div>
+
+    <div class="section-title">Database</div>
+    <div class="grid">
+        <div class="icon-card">
+            <i class="devicon-postgresql-plain colored"></i>
+            <div class="icon-name">PostgreSQL</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-mongodb-plain colored"></i>
+            <div class="icon-name">MongoDB</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-mysql-plain colored"></i>
+            <div class="icon-name">MySQL</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-sitemap color-schema"></i>
+            <div class="icon-name">Schema Design</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-bolt color-indexing"></i>
+            <div class="icon-name">Indexing</div>
+        </div>
+    </div>
+
+    <div class="section-title">Tools & Deployment</div>
+    <div class="grid">
+        <div class="icon-card">
+            <i class="devicon-git-plain colored"></i>
+            <div class="icon-name">Git</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-github-original color-github"></i>
+            <div class="icon-name">GitHub</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-postman-plain colored"></i>
+            <div class="icon-name">Postman</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-docker-plain colored"></i>
+            <div class="icon-name">Docker Basics</div>
+        </div>
+        <div class="icon-card">
+            <i class="devicon-vercel-original color-github"></i>
+            <div class="icon-name">Vercel</div>
+        </div>
+        <div class="icon-card">
+            <i class="fas fa-server color-render"></i>
+            <div class="icon-name">Render</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Professional portrait placeholder</title>
+  <desc id="desc">A clean illustrated profile placeholder for a backend developer portfolio.</desc>
+  <rect width="800" height="1000" fill="#030712"/>
+  <rect x="90" y="82" width="620" height="836" rx="36" fill="#0b0f19" stroke="#1e293b" stroke-width="3"/>
+  <circle cx="400" cy="330" r="140" fill="#22d3ee"/>
+  <circle cx="400" cy="302" r="76" fill="#a855f7"/>
+  <path d="M250 742c22-124 92-194 150-194s128 70 150 194" fill="#f8fafc"/>
+  <path d="M260 770h280c44 0 80 36 80 80v68H180v-68c0-44 36-80 80-80Z" fill="#22d3ee"/>
+  <rect x="236" y="652" width="328" height="66" rx="33" fill="#111827"/>
+  <text x="400" y="886" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">YOUR PHOTO</text>
+</svg>

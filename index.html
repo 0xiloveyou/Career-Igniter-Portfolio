@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Backend developer portfolio showcasing APIs, databases, cloud-ready systems, and production-focused projects.">
+  <title>Rafiq Ahammed | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-label="Loading portfolio">
+    <div class="terminal-loader">
+      <div class="terminal-top">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <strong>BACKEND_BOOT</strong>
+      </div>
+      <div class="terminal-lines">
+        <p><span>OK</span> Initializing developer profile...</p>
+        <p><span>API</span> Mounting Node.js services...</p>
+        <p><span>DB</span> Connecting database layer...</p>
+        <p><span>READY</span> Portfolio system online.</p>
+      </div>
+      <div class="loader-track"><div class="loader-bar"></div></div>
+    </div>
+  </div>
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="glow glow-cyan"></span>
+    <span class="glow glow-purple"></span>
+    <span class="grid-noise"></span>
+  </div>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <!-- Logo image hidden because the source image does not resize cleanly in the navbar.
+        <span class="brand-mark">
+          <img src="assets/MyAssets/logo1.png" alt="Rafiq Ahammed logo">
+        </span>
+        -->
+        <span class="brand-text">Rafiq Ahammed</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#education">Education</a>
+        <!-- Experience link hidden until professional experience is added. -->
+        <!-- <a href="#experience">Experience</a> -->
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section reveal" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Backend Developer</p>
+        <h1>Backend APIs that stay clean.</h1>
+        <div class="code-editor" aria-label="Animated backend developer introduction">
+          <div class="editor-top">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <strong>intro.js</strong>
+          </div>
+          <div class="editor-body">
+            <p><span class="code-key">const</span> role = <span class="code-string">"Backend Developer"</span>;</p>
+            <p><span class="code-key">const</span> focus = <span class="code-string animated-code-text"></span><span class="code-cursor"></span>;</p>
+            <p><span class="code-key">return</span> secureApis(role, focus);</p>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="assets/MyAssets/myResume.pdf" download>Download Resume</a>
+          <a class="btn secondary" href="#contact">Contact</a>
+        </div>
+        <div class="hero-stats" aria-label="Backend developer highlights">
+          <div><strong>03+</strong><span>Backend projects</span></div>
+          <div><strong>12+</strong><span>API modules</span></div>
+          <div><strong>Clean</strong><span>Auth, DB, docs</span></div>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a class="social-icon" href="https://github.com/0xiloveyou" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a class="social-icon" href="https://www.linkedin.com/in/rafiq-ahammed-328a7341b/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a class="social-icon" href="https://www.facebook.com/0x3301/" target="_blank" rel="noreferrer" aria-label="Facebook profile">
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Facebook</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-portrait" aria-label="Professional portrait of Rafiq Ahammed">
+        <div class="portrait-ring">
+          <img src="assets/MyAssets/myPic.png" alt="Professional portrait of Rafiq Ahammed">
+        </div>
+        <div class="portrait-badge availability-badge">
+          <span class="status-dot"></span>
+          <div>
+            <strong>Rafiq Ahammed</strong>
+            <p>Backend Developer</p>
+          </div>
+        </div>
+        <!-- <div class="portrait-badge stack-badge">
+          <span>Core Stack</span>
+          <div class="stack-icons" aria-label="Node.js, Express.js, MongoDB">
+            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js">
+            <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+          </div>
+        </div>  no need this section -->
+      </div>
+    </section>
+
+    <section class="section about reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>A developer who enjoys turning messy requirements into simple backend systems.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            My programming journey started with curiosity about how websites actually work behind the screen. Over time, that curiosity moved deeper into servers, databases, APIs, authentication, and the logic that keeps real applications dependable.
+          </p>
+          <p>
+            I enjoy backend work because it rewards clear thinking. I like designing REST APIs, planning database schemas, writing reusable services, and debugging the small details that make software stable. I am especially interested in Node.js, Express, MongoDB, SQL, authentication flows, and deployment workflows.
+          </p>
+          <p>
+            Outside programming, I like learning new tools, following technology trends, and spending time on focused hobbies that keep me disciplined and creative. I bring that same steady mindset into projects: understand the problem, design the flow, build carefully, and improve continuously.
+          </p>
+        </div>
+        <div class="quick-facts">
+          <div class="fact-card">
+            <span class="fact-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
+            <div>
+              <span>Focus</span>
+              <strong>Backend APIs</strong>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span>
+            <div>
+              <span>Location</span>
+              <strong>Bangladesh</strong>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon" aria-hidden="true"><i class="fa-solid fa-laptop-code"></i></span>
+            <div>
+              <span>Work Style</span>
+              <strong>Clean, tested, documented</strong>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon" aria-hidden="true"><i class="fa-solid fa-rocket"></i></span>
+            <div>
+              <span>Goal</span>
+              <strong>Production-ready systems</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Backend-first toolkit with enough frontend knowledge to ship complete features.</h2>
+      </div>
+      <div class="skill-groups">
+        <article class="skill-card">
+          <h3>Backend</h3>
+          <div class="skill-icon-grid">
+            <div class="icon-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+            <div class="icon-card"><img class="invert-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js"><span>Express.js</span></div>
+            <div class="icon-card"><i class="fas fa-network-wired color-rest"></i><span>REST API</span></div>
+            <div class="icon-card"><i class="fas fa-key color-jwt"></i><span>JWT Auth</span></div>
+            <div class="icon-card"><i class="fas fa-filter color-middleware"></i><span>Middleware</span></div>
+            <div class="icon-card"><i class="fas fa-shield-halved color-validation"></i><span>Validation</span></div>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3>Database</h3>
+          <div class="skill-icon-grid">
+            <div class="icon-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+            <div class="icon-card"><i class="devicon-mongoose-original colored"></i><span>Mongoose</span></div>
+            <div class="icon-card"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+            <div class="icon-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+            <div class="icon-card"><i class="fas fa-sitemap color-schema"></i><span>Schema Design</span></div>
+            <div class="icon-card"><i class="fas fa-bolt color-indexing"></i><span>Indexing</span></div>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3>Tools</h3>
+          <div class="skill-icon-grid">
+            <div class="icon-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+            <div class="icon-card"><i class="devicon-github-original color-github"></i><span>GitHub</span></div>
+            <div class="icon-card"><i class="devicon-postman-plain colored"></i><span>Postman</span></div>
+            <div class="icon-card"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+            <div class="icon-card"><i class="devicon-vercel-original color-github"></i><span>Vercel</span></div>
+            <div class="icon-card"><i class="fas fa-server color-render"></i><span>Render</span></div>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3>Frontend</h3>
+          <div class="skill-icon-grid">
+            <div class="icon-card"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+            <div class="icon-card"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+            <div class="icon-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+            <div class="icon-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+            <div class="icon-card"><i class="fas fa-laptop-code color-responsive"></i><span>Responsive UI</span></div>
+            <div class="icon-card"><i class="fas fa-cloud-arrow-down color-api"></i><span>API Integration</span></div>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3>Cybersecurity</h3>
+          <div class="skill-icon-grid">
+            <div class="icon-card"><i class="fas fa-user-secret color-cyber"></i><span>Ethical Hacking</span></div>
+            <div class="icon-card"><i class="fas fa-bug color-jwt"></i><span>Vulnerability Testing</span></div>
+            <div class="icon-card"><i class="fas fa-lock color-validation"></i><span>Secure Auth</span></div>
+            <div class="icon-card"><i class="fas fa-file-shield color-api"></i><span>Security Research</span></div>
+            <div class="icon-card"><i class="fas fa-terminal color-rest"></i><span>CTF Practice</span></div>
+            <div class="icon-card"><i class="fas fa-certificate color-schema"></i><span>Certification</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section expertise reveal" id="expertise">
+      <div class="section-heading">
+        <p class="eyebrow">Expertise</p>
+        <h2>Backend engineering with cybersecurity practice and problem-solving depth.</h2>
+      </div>
+      <div class="expertise-grid">
+        <article class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-code"></i></div>
+          <span>Competitive Programming</span>
+          <h3>Codeforces Practice</h3>
+          <p>Regular problem solving to strengthen logic, algorithms, debugging speed, and clean implementation habits.</p>
+          <a class="btn secondary expertise-btn" href="https://codeforces.com/profile/Rafiq_" target="_blank" rel="noreferrer">
+            <span>View Codeforces</span>
+            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </article>
+        <article class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <span>Cybersecurity</span>
+          <h3>Cyber Security Certificate</h3>
+          <p>Training and internship-focused cybersecurity work covering ethical hacking fundamentals, secure thinking, and practical research.</p>
+          <a class="btn secondary expertise-btn" href="https://drive.google.com/file/d/1_6x_jwX0FV7p1ADqXZU8q0OJlbLOSv_I/view?usp=sharing" target="_blank" rel="noreferrer">
+            <span>Verify Credential</span>
+            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </article>
+        <article class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <span>Research</span>
+          <h3>Thesis about Ethical Hacking</h3>
+          <p>A cybersecurity thesis on ethical hacking, research practice, and learning under Arena Web Security guidance.</p>
+          <a class="btn secondary expertise-btn" href="https://drive.google.com/file/d/154nHOUJK550lS6NQXR2kTs6TM0jEdO0u/view?usp=sharing" target="_blank" rel="noreferrer">
+            <span>Read Thesis</span>
+            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section reveal" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="timeline">
+        <!-- <article class="timeline-item">
+          <span>2024 - Present</span>
+          <h3>B.Sc. in Computer Science and Engineering</h3>
+          <p>Your University Name</p>
+          <p>Relevant topics: data structures, database systems, software engineering, operating systems, and web application development.</p>
+        </article> -->
+        <article class="timeline-item education-card">
+          <div class="education-icon" aria-hidden="true">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <span>2019 - 2020</span>
+          <h3>Higher Secondary</h3>
+          <p class="education-institute">Government Science College</p>
+          <p>Science background with a strong interest in logic, problem solving, and technology.</p>
+        </article>
+        <!-- <article class="timeline-item">
+          <span>2020</span>
+          <h3>Higher Secondary Certificate</h3>
+          <p>Government Science College</p>
+          <p>Science background with a strong interest in logic, problem solving, and technology.</p>
+        </article> -->
+      </div>
+    </section>
+
+    <!-- Experience section hidden until professional experience is available.
+    <section class="section split-section reveal" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Practical backend experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>2025 - Present</span>
+          <h3>Backend Developer Projects</h3>
+          <p>Personal and academic work</p>
+          <p>Built APIs, implemented authentication, designed database schemas, tested endpoints with Postman, and deployed full-stack applications for public access.</p>
+        </article>
+        <article class="timeline-item">
+          <span>Available for</span>
+          <h3>Internship or Junior Backend Role</h3>
+          <p>Remote, hybrid, or onsite</p>
+          <p>Interested in teams that value readable code, clear communication, and steady technical growth.</p>
+        </article>
+      </div>
+    </section>
+    -->
+
+    <section class="section projects reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected real projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/MyAssets/project 1.png" alt="Frontend project preview">
+          <div class="project-card-body">
+            <h3>Online Shop</h3>
+            <h4>Frontend Project</h4>
+            <ul class="feature-list">
+              <li>Responsive frontend interface</li>
+              <li>Clean page structure and reusable UI sections</li>
+              <li>Public Netlify deployment</li>
+              <li>Source code available on GitHub</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=frontend-assignment">View Details</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/MyAssets/project 2.png" alt="React frontend project preview">
+          <div class="project-card-body">
+            <h3>Ticket Booking System</h3>
+            <h4>React Frontend</h4>
+            <ul class="feature-list">
+              <li>React-based frontend project</li>
+              <li>Component-focused UI implementation</li>
+              <li>Deployed live with Surge</li>
+              <li>GitHub repository includes project source</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=mission-restart">View Details</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/MyAssets/project 3.png" alt="Backend project preview">
+          <div class="project-card-body">
+            <h3>Issue & Feature Tracker</h3>
+            <h4>Backend Project</h4>
+            <ul class="feature-list">
+              <li>Backend API project with deployed server</li>
+              <li>Organized routes and API behavior</li>
+              <li>Live deployment on Vercel</li>
+              <li>Production repository on GitHub</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=level-two-backend">View Details</a>
+          </div>
+        </article>
+        <!-- Previous placeholder backend projects preserved for future reference.
+        <article class="project-card">
+          <img src="assets/projects/task-api.svg" alt="Task management API dashboard preview">
+          <div class="project-card-body">
+            <h3>TaskFlow API</h3>
+            <h4>Key Features</h4>
+            <ul class="feature-list">
+              <li>JWT authentication and role-based access</li>
+              <li>Team workspaces with task ownership</li>
+              <li>Filtered queries for priority and status</li>
+              <li>Comment-ready task workflow</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=taskflow">View Details</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/projects/ecommerce-api.svg" alt="E-commerce backend architecture preview">
+          <div class="project-card-body">
+            <h3>ShopCore Backend</h3>
+            <h4>Key Features</h4>
+            <ul class="feature-list">
+              <li>Product, cart, and order REST APIs</li>
+              <li>Admin inventory control routes</li>
+              <li>Server-side checkout total handling</li>
+              <li>Payment integration-ready structure</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=shopcore">View Details</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/projects/learning-platform.svg" alt="Learning platform API preview">
+          <div class="project-card-body">
+            <h3>LearnHub Server</h3>
+            <h4>Key Features</h4>
+            <ul class="feature-list">
+              <li>Course, lesson, and enrollment APIs</li>
+              <li>Protected instructor route workflow</li>
+              <li>Review and learning content support</li>
+              <li>Role-aware course management</li>
+            </ul>
+            <a class="details-btn" href="project.html?id=learnhub">View Details</a>
+          </div>
+        </article>
+        -->
+      </div>
+    </section>
+
+    <section class="section contact reveal" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Tell me what backend problem you want solved.</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-panel">
+          <div class="contact-person">
+            <img src="assets/MyAssets/myPic.png" alt="Small profile portrait of Rafiq Ahammed">
+            <div>
+              <h3>Rafiq Ahammed</h3>
+              <p>Backend Developer</p>
+            </div>
+          </div>
+          <a class="contact-link" href="mailto:care.1337.leet@gmail.com"><i class="fa-solid fa-envelope"></i><span>Gmail</span>care.1337.leet@gmail.com</a>
+          <a class="contact-link" href="tel:+8801580320488"><i class="fa-solid fa-phone"></i><span>Call</span>01580320488</a>
+          <a class="contact-link" href="https://wa.me/8801580320488" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span>01580320488</a>
+          <div class="contact-socials" aria-label="Profile links">
+            <a class="social-icon" href="https://github.com/0xiloveyou" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/in/rafiq-ahammed-328a7341b/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a class="social-icon" href="https://www.facebook.com/0x3301/" target="_blank" rel="noreferrer" aria-label="Facebook profile">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="contact-to">To</label>
+            <input id="contact-to" name="to" type="email" value="care.1337.leet@gmail.com" readonly>
+          </div>
+          <div class="form-row">
+            <label for="contact-from">From</label>
+            <input id="contact-from" name="from" type="email" placeholder="your.email@gmail.com" required>
+          </div>
+          <div class="form-row">
+            <label for="contact-type">Project Type</label>
+            <select id="contact-type" name="type" required>
+              <option value="" selected disabled>Select a category</option>
+              <option value="Backend API">Backend API</option>
+              <option value="Database Design">Database Design</option>
+              <option value="Authentication System">Authentication System</option>
+              <option value="Bug Fix / Optimization">Bug Fix / Optimization</option>
+              <option value="Job Opportunity">Job Opportunity</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit"><i class="fa-solid fa-envelope"></i> Send Gmail</button>
+            <button class="btn secondary" id="whatsapp-button" type="button"><i class="fa-brands fa-whatsapp"></i> Send WhatsApp</button>
+          </div>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Rafiq Ahammed. Built for clean backend engineering.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

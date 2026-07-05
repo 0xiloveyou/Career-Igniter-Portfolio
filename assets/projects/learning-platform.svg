@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Learning platform API preview</title>
+  <desc id="desc">Stylized course platform backend preview with lessons and enrollments.</desc>
+  <rect width="960" height="600" fill="#030712"/>
+  <rect x="78" y="72" width="804" height="456" rx="18" fill="#0b0f19" stroke="#1e293b" stroke-width="3"/>
+  <rect x="126" y="126" width="278" height="348" rx="14" fill="#22d3ee"/>
+  <rect x="456" y="126" width="378" height="72" rx="14" fill="#1e1b4b"/>
+  <rect x="456" y="232" width="156" height="190" rx="14" fill="#111827"/>
+  <rect x="648" y="232" width="186" height="190" rx="14" fill="#111827"/>
+  <circle cx="266" cy="242" r="66" fill="#a855f7"/>
+  <path d="M224 344h84c42 0 76 34 76 76v54H148v-54c0-42 34-76 76-76Z" fill="#f8fafc"/>
+  <text x="266" y="169" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#0b0f19">Instructor</text>
+  <text x="486" y="171" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">LearnHub Server</text>
+  <rect x="488" y="270" width="92" height="18" rx="9" fill="#22d3ee"/>
+  <rect x="488" y="318" width="72" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="488" y="366" width="100" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="684" y="270" width="108" height="18" rx="9" fill="#22d3ee"/>
+  <rect x="684" y="318" width="78" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="684" y="366" width="118" height="18" rx="9" fill="#94a3b8"/>
+</svg>
