@@ -1,45 +1,100 @@
 const projects = {
-  "frontend-assignment": {
-    title: "Frontend Assignment",
-    summary: "Responsive frontend project deployed on Netlify with source code available on GitHub.",
-    image: "assets/MyAssets/project 1.png",
-    stack: ["HTML", "CSS", "JavaScript", "Netlify", "GitHub"],
-    live: "https://699495a9ca0e4453735ea916--iridescent-cascaron-b3abaf.netlify.app/",
-    github: "https://github.com/SifatAsifAsif/Assignment",
+  "carmart": {
+    title: "CARMART",
+
+    summary: "A modern full-stack car marketplace platform designed to simplify vehicle discovery, selling, purchasing, and order management through role-based experiences.",
+
+    image: "assets/MyAssets/p1.png",
+
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma",
+      "REST API",
+      "Vercel"
+    ],
+
+    live: "https://carmart-frontend.vercel.app/",
+
+    github: "https://github.com/0xiloveyou/carmart-frontend",
+
     description:
-      "Frontend Assignment is a responsive frontend project focused on clean layout, visual presentation, and accessible page structure. It is deployed publicly on Netlify and backed by a GitHub repository.",
+      "CarMart is a modern full-stack car marketplace built to provide a complete vehicle buying and selling experience. The platform includes vehicle discovery, search and filtering, favorites, purchasing, order management, and dedicated Customer, Seller, and Admin dashboards. The frontend is built with Next.js, React, TypeScript, and Tailwind CSS, while the backend provides secure REST APIs using Node.js, Express.js, PostgreSQL, and Prisma.",
+
     challenges:
-      "The main challenge was keeping the interface organized across screen sizes while maintaining a clean structure for future updates.",
+      "The main challenge was designing a complete role-based marketplace where Customers, Sellers, and Admins have different workflows and permissions while keeping authentication, vehicle management, purchases, and orders secure and organized across the frontend and backend.",
+
     future:
-      "Future improvements can include stronger component organization, more interactive states, and additional polish for accessibility and performance."
+      "Future improvements can include advanced vehicle comparison, real-time notifications, improved search and filtering, seller analytics, enhanced payment workflows, and additional marketplace features."
   },
+
+  "fix-it-now": {
+    title: "Fix It Now",
+
+    summary: "A full-featured home service marketplace built for discovering services, managing bookings, processing payments, and connecting customers with service providers.",
+
+    image: "assets/MyAssets/p2.png",
+
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn/UI",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "JWT",
+      "Stripe",
+      "REST API"
+    ],
+
+    live: "https://fix-it-now-frontend-seven.vercel.app/",
+
+    github: "https://github.com/0xiloveyou/fix-it-now-frontend",
+
+    description:
+      "Fix It Now is a full-stack home service marketplace that allows users to discover services, manage bookings, make payments, and leave reviews. The platform includes secure JWT authentication, role-based dashboards, service discovery, booking management, Stripe payment integration, and administrative functionality. The frontend provides a responsive production-ready interface while the backend delivers scalable REST APIs.",
+
+    challenges:
+      "The main challenge was connecting multiple marketplace workflows such as authentication, service discovery, booking management, payments, reviews, and role-based dashboards while keeping the application responsive and easy to use.",
+
+    future:
+      "Future improvements can include real-time booking notifications, provider availability scheduling, advanced service filtering, improved analytics, messaging between customers and providers, and enhanced payment functionality."
+  },
+
   "mission-restart": {
-    title: "Mission Restart Assignment 2",
-    summary: "React frontend project with a live Surge deployment and complete GitHub source.",
-    image: "assets/MyAssets/project 2.png",
-    stack: ["React", "JavaScript", "CSS", "Surge", "GitHub"],
+    title: "Ticket Booking System",
+
+    summary: "A React-based ticket booking frontend focused on component-driven UI development, responsive design, and a live production deployment.",
+
+    image: "assets/MyAssets/p3.png",
+
+    stack: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Surge",
+      "GitHub"
+    ],
+
     live: "https://leet-assignment-missionrestart-assignment2-3301-1337.surge.sh/",
+
     github: "https://github.com/SifatAsifAsif/Mission-Restart-Assignment-2/tree/main",
+
     description:
-      "Mission Restart Assignment 2 is a React-based frontend project built with reusable UI thinking and deployed live through Surge.",
+      "Ticket Booking System is a React-based frontend project designed around a ticket booking experience. The project focuses on reusable UI components, structured page layouts, responsive presentation, and a smooth user interface. It is deployed publicly through Surge with the complete source code available on GitHub.",
+
     challenges:
-      "The key challenge was organizing the React implementation so the interface stayed manageable while matching the assignment requirements.",
+      "The main challenge was organizing the React components and interface structure so that the booking experience remained clean, responsive, and easy to maintain while satisfying the project requirements.",
+
     future:
-      "Future improvements can include better state handling, refined responsive details, and stronger UI feedback for user actions."
-  },
-  "level-two-backend": {
-    title: "Level 2 Assignment 2",
-    summary: "Backend API project deployed on Vercel with production source available on GitHub.",
-    image: "assets/MyAssets/project 3.png",
-    stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Vercel", "REST API"],
-    live: "https://level-2-assignment-2-mu-nine.vercel.app/",
-    github: "https://github.com/0xiloveyou/Level_2_Assignment_2",
-    description:
-      "Level 2 Assignment 2 is a backend project focused on API behavior, route organization, database work, and public deployment.",
-    challenges:
-      "The main challenge was keeping backend logic clear while preparing the project for a public deployment flow.",
-    future:
-      "Future improvements can include API documentation, stronger validation coverage, and automated tests around the core routes."
+      "Future improvements can include real booking functionality, stronger state management, ticket availability handling, payment integration, authentication, and improved user feedback throughout the booking process."
   },
   /*
   taskflow: {
